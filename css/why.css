@@ -1,0 +1,55 @@
+.why-block {
+    width: 1250px;
+    height: max-content;
+    margin: 70px auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.why-title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 46px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    width: 548px;
+    flex-direction: column;
+}
+
+img[alt='first'],
+img[alt='second'],
+img[alt='third'] {
+    width: 63px;
+    height: 28px;
+}
+
+img[alt='lessons'] {
+    width: 601px;
+    /* height: 28px; */
+}
+
+.text-container__title {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.text-container__subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    color: #4F4F4F;
+}
+
+img[alt='test'],
+img[alt='interface'] {
+    width: 601px;
+    height: 400px;
+
+}

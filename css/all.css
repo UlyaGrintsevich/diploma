@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Playfair+Display:wght@500&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+header {
+    width: 100%;
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img[alt='logo'] {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+#enter-btn {
+    width: 82px;
+    height: 48px;
+    background-color: #78258D;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#registration-btn {
+    width: 160px;
+    height: 48px;
+    background-color: #78258D;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.wrapper{
+    margin: 0 auto;
+    height: 600px;
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.holder{
+    height: 400px;
+    width: 488px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.holder-title{
+    font-weight: 900;
+    font-size: 46px;
+    margin: 0;
+}
+.holder-subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #828282;
+}
+.holder-text{
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#form{
+    width:407px ;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;  
+}
+input{
+    width: 407px;
+    height: 60px;
+    border-radius: 8px;
+    border: 2px solid #78258D;
+}
+::placeholder{
+    padding-left: 20px;
+}
+.menu {
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+a {
+    cursor: pointer;
+}
+.account-btn {
+    margin-right: 70px;
+    text-decoration: underline;
+}
+
+.account-btn:hover {
+    color: #78258D;
+}

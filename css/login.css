@@ -1,0 +1,24 @@
+
+#login-form-submit{
+    width: 90px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    background-color: #78258D;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+.forgot-password{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #828282;
+    margin: 0 auto;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.forgot-password:hover{
+    color: #78258D;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./1.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <title>Практическое задание</title>
+</head>
+
+<body>
+    <div class="task-container">
+        <div class="task-container__content">
+            <button class="back">&#8592; Назад</button>
+            <h3 class="task-container__content-title">
+                Практическое задание<br> по теме "Введение"
+            </h3>
+            <p class="task-container__content-subtitle">
+                Добавьте в редактор тег <code>&lt;p&gt; &lt;/p&gt;</code> и, используя атрибут style, установите размер
+                шрифта в 12 пикселей.
+            </p>
+            <button onclick='toggleVisibility()' class="task-container__content-btn" onclick="f()">
+                решение
+            </button>
+            <div id='hiddenDiv' style='display:none'><code class="answer">&lt;p style ="font-size:12px;"&gt;"hello"&lt;/p&gt;</code></div>
+            <button class="next"> Следующее 	&#8594;</button>
+        </div>
+        <div class="code-editor">
+            <div class="code">
+                <div class="html-code">
+                    <h1><img src="./img/html5.png" alt="">HTML</h1>
+                    <textarea></textarea>
+                </div>
+                <div class="css-code">
+                    <h1><img src="./img/css3.png" alt="">CSS</h1>
+                    <textarea></textarea>
+                </div>
+            </div>
+            <iframe id="result"></iframe>
+        </div>
+    </div>
+
+    <script src="./1.js"></script>
+
+</body>
+
+</html>

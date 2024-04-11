@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Введение в CSS</title>
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/first-theme.css">
+    <link rel="stylesheet" href="./css/materials.css">
+</head>
+
+<body>
+    <header>
+        <div id="menu">
+            <img src="./img/logo.png" alt="logo">
+            <nav id="navigation">
+                <a class="back">&larr; Назад</a>
+                <a>Теория</a>
+                <a>Практика</a>
+                <a>Тесты</a>
+
+            </nav>
+        </div>
+        <a class="account-btn">
+            Личный кабинет
+        </a>
+    </header>
+    <div class="theme-container">
+        <h2 class="theme-container__title">Введение в CSS</h2>
+            <p class="theme-container__subtitle">
+                В этом разделе мы рассмотрим основы CSS, включая синтаксис, основные понятия каскада, селекторы
+                и
+                свойства. Погрузитесь в мир стилей и узнайте, как преобразить ваши веб-проекты с помощью этого важного
+                инструмента веб-разработчика.
+            </p>
+        <section class="articles">
+            <article>
+                <div class="article-wrapper">
+                    <div class="article-body">
+                        <h2>Каскадные таблицы стилей</h2>
+                        <p>
+                            CSS (Cascading Style Sheets) - это язык стилей, который используется для описания внешнего
+                            вида документа, написанного с использованием языка разметки...
+                        </p>
+                        <a href="#" class="read-more">
+                            Читать далее <span class="sr-only">about this is some title</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="article-wrapper">
+                    <div class="article-wrapper">
+                        <div class="article-body">
+                            <h2>Использование CSS в HTML</h2>
+                            <p>
+                                Язык стилей CSS не связан с HTML напрямую. Необходимо указать браузеру, откуда нужно загрузить и интерпретировать стили. Для этого есть три способа...
+                            </p>
+                            <a href="#" class="read-more">
+                                Читать далее <span class="sr-only">about this is some title</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+            </article>
+            <article>
+                <div class="article-wrapper">
+                    <div class="article-body">
+                        <h2>Наследование стилей</h2>
+                        <p>
+                            При использовании стилей в CSS часто затрагивается не только тот элемент, для которого указаны стили, но и вложенные в него теги. Такие стили называются...
+                        </p>
+                        <a href="#" class="read-more">
+                            Читать далее <span class="sr-only">about this is some title</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="article-wrapper">
+                    <div class="article-body">
+                        <h2>Запись стилей в теге style</h2>
+                        <p>
+                            Основная проблема использования атрибутов для определения стилей — их перегруженность. Часто разметка HTML содержит очень много элементов, а с...
+                        </p>
+                        <a href="#" class="read-more">
+                            Читать далее <span class="sr-only">about this is some title</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="article-wrapper">
+                    <div class="article-body">
+                        <h2>Базовыe стили тегов</h2>
+                        <p>
+                            По умолчанию, все HTML-теги имеют своё стандартное оформление. Это оформление задают браузеры, причём каждый браузер может задать свой стиль ...
+                        </p>
+                        <a href="#" class="read-more">
+                            Читать далее <span class="sr-only">about this is some title</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="article-wrapper">
+                    <div class="article-body">
+                        <h2>Классы</h2>
+                        <p>
+                            Основное решение для стилизации конкретного участка страницы — использование классов. Они помогают задать нужный нам стиль не разом для...
+                        </p>
+                        <a href="#" class="read-more">
+                            Читать далее <span class="sr-only">about this is some title</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="article-wrapper">
+                    <div class="article-body">
+                        <h2>Селекторы</h2>
+                        <p>
+                            Селектор — это описание того, к чему нужно применить тот или иной стиль CSS. Они бывают достаточно сложными, указывая не просто конкретный элемент...
+                        </p>
+                        <a href="#" class="read-more">
+                            Читать далее <span class="sr-only">about this is some title</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="article-wrapper">
+                    <div class="article-body">
+                        <h2>Каскадность</h2>
+                        <p>
+                            Мы уже знаем, что CSS переводится как «Каскадные таблицы стилей». С таблицей стилей к этому моменту всё ясно, но что значит каскадные? Дело в том...
+                        </p>
+                        <a href="#" class="read-more">
+                            Читать далее <span class="sr-only">about this is some title</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="article-wrapper">
+                    <div class="article-body">
+                        <h2>Приоритет стилей</h2>
+                        <p>
+                            Говоря о каскадности, возникает вопрос: «А что произойдёт, если в разных источниках будут одинаковые правила для элемента, но с разными...
+                        </p>
+                        <a href="#" class="read-more">
+                            Читать далее <span class="sr-only">about this is some title</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </div>
+</body>
+
+</html>
+
